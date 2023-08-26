@@ -2,7 +2,7 @@ async function enviarMensagensDeAmor() {
   const main = document.querySelector("#main");
   const textarea = main.querySelector(`div[contenteditable="true"]`);
 
-  if (!textarea) throw new Error("ERRO, abra a conversa seu corno");
+  if (!textarea) throw new Error("ERRO, abra a conversa");
 
   for (let x = 1; x <= 100; x++) {
     const message = `Eu te amo ${x}%  ❤️`;
